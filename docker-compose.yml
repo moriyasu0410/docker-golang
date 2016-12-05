@@ -1,0 +1,7 @@
+version: '2'
+services:
+  golang:
+    container_name: golang_container
+    build: ./docker/golang
+    volumes:
+      - ./:/go/src/github.com/mediba-moritake/docker-golang
